@@ -1,0 +1,123 @@
+@page{
+    size: legal;
+    margin: 0;
+}
+
+body{
+    margin:0;
+    font-family:"Times New Roman", serif;
+    font-size:14px;
+}
+
+.page{
+    width:8.5in;
+    height:14in;
+    padding:28px;
+    box-sizing:border-box;
+}
+
+/* DOUBLE BORDER */
+.outer-wrapper{
+    border:3px solid #000;
+    border-radius:22px;
+    padding:10px;
+    height:100%;
+}
+
+.outer-box{
+    border:2px solid #000;
+    border-radius:18px;
+    padding:40px 45px;
+    height:100%;
+    position:relative;
+}
+
+.center{text-align:center;}
+.right{text-align:right;}
+.bold{font-weight:bold;}
+.upper{text-transform:uppercase;}
+.small{font-size:12px;}
+
+.logo{
+    width:62px;
+    display:block;
+    margin:8px auto 6px auto;
+}
+
+/* TOP LABELS */
+.top-left{
+    position:absolute;
+    top:18px;
+    left:30px;
+    font-size:12px;
+}
+
+.top-right{
+    position:absolute;
+    top:18px;
+    right:30px;
+    font-size:12px;
+    font-style:italic;
+}
+
+.bottom-release{
+    position:absolute;
+    bottom:18px;
+    right:35px;
+    font-size:12px;
+    font-style:italic;
+}
+
+.section{
+    margin-top:20px;
+}
+
+.line{
+    display:inline-block;
+    border-bottom:1px solid #000;
+    height:18px;
+    vertical-align:bottom;
+}
+
+/* CSC ACTION BOX */
+.csc-box{
+    border:2px solid #000;
+    border-radius:16px;
+    padding:20px;
+    height:185px;
+    margin-top:25px;
+}
+
+/* WARNING BOX */
+.warning-box{
+    border:2px solid #000;
+    border-radius:14px;
+    padding:12px;
+    text-align:center;
+    margin-top:15px;
+    font-size:13px;
+}
+
+/* SPLIT ACKNOWLEDGMENT */
+.split-box{
+    border:2px solid #000;
+    border-radius:16px;
+    display:flex;
+    height:130px;
+    margin-top:18px;
+}
+
+.split-left{
+    width:50%;
+    border-right:2px solid #000;
+    padding:18px;
+}
+
+.split-right{
+    width:50%;
+    padding:18px;
+}
+
+.page-break{
+    page-break-after: always;
+}
