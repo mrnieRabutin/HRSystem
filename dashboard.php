@@ -172,11 +172,12 @@ $result = $conn->query($sql);
         <img src="depedlogo2.jpg" style="width:55px; margin-right:12px;">
         <div class="text-white">
           <div class="navbar-brand mb-0 p-0">
-            DepEd Appointment System
+            Department Of Education
           </div>
           <div style="font-size:13px; font-weight:600; letter-spacing:1px;">
             DIVISION OF SOUTHERN LEYTE
           </div>
+          <div style="font-size:12px;">CS FORM NO. 33-A</div>
         </div>
       </div>
 
@@ -189,11 +190,10 @@ $result = $conn->query($sql);
           <i class="bi bi-plus-circle"></i> New Appointment
         </button>
 
-        <a href="logout.php" class="btn btn-danger btn-sm shadow-sm">
-          <i class="bi bi-box-arrow-right"></i> Logout
+        <a href="dash.php" class="btn btn-warning btn-sm">
+          <i class="bi bi-box-arrow-right"></i> Back
         </a>
       </div>
-
     </div>
   </nav>
 
@@ -310,9 +310,10 @@ $result = $conn->query($sql);
                 <input type="text" name="fullname" class="form-control" placeholder="e.g. Juan Dela Cruz" required>
               </div>
 
-               <div class="col-md-6 mb-3">
+              <div class="col-md-6 mb-3">
                 <label>Address </label>
-                <input type="text" name="address" class="form-control" placeholder="e.g. Maasin City, Southern Leyte" required>
+                <input type="text" name="address" class="form-control" placeholder="e.g. Maasin City, Southern Leyte"
+                  required>
               </div>
 
               <div class="col-md-4 mb-3">

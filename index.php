@@ -166,7 +166,7 @@ if (isset($_GET['error'])) {
                 <i class="bi bi-moon-fill dark-toggle" onclick="toggleDarkMode()"></i>
 
                 <img src="depedlogo2.jpg" class="logo">
-                <h2 class="fw-bold">DepEd Appointment System</h2>
+                <h2 class="fw-bold">DepEd System</h2>
                 <p>Division of Southern Leyte</p>
 
                 <svg class="wave" viewBox="0 0 1440 320">
