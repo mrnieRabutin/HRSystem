@@ -276,7 +276,7 @@ if (isset($_GET['error'])) {
                 successModal.show();
 
                 setTimeout(function () {
-                    window.location.href = "dashboard.php";
+                    window.location.href = "dash.php";
                 }, 1800);
             });
         </script>

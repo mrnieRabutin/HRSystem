@@ -257,10 +257,6 @@ $result = $conn->query($sql);
                     <?= date("M d, Y", strtotime($row['created_at'])); ?>
                   </td>
                   <td>
-                    <a href="generate_pdf.php?id=<?= $row['id']; ?>" target="_blank" class="btn btn-success btn-sm me-1">
-                      <i class="bi bi-printer"></i>
-                    </a>
-
                     <a href="edit.php?id=<?= $row['id']; ?>" class="btn btn-warning btn-sm me-1">
                       <i class="bi bi-pencil"></i>
                     </a>
@@ -268,6 +264,10 @@ $result = $conn->query($sql);
                     <a href="delete.php?id=<?= $row['id']; ?>" class="btn btn-danger btn-sm"
                       onclick="return confirm('Delete this record?');">
                       <i class="bi bi-trash"></i>
+                    </a>
+
+                    <a href="generate_pdf.php?id=<?= $row['id']; ?>" target="_blank" class="btn btn-success btn-sm me-1">
+                      <i class="bi bi-printer"></i>
                     </a>
                   </td>
                 </tr>
