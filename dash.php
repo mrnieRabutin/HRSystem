@@ -129,7 +129,7 @@ include "auth/check.php";
       <div class="col-md-4">
         <div class="dashboard-card" onclick="location.href='dashboard.php'">
           <i class="bi bi-file-earmark-text"></i>
-          <div class="dashboard-title">Appointment Records</div>
+          <div class="dashboard-title">Appointments</div>
         </div>
       </div>
 
@@ -161,7 +161,7 @@ include "auth/check.php";
       <div class="col-md-4">
         <div class="dashboard-card" onclick="location.href='settings.php'">
           <i class="bi bi-gear"></i>
-          <div class="dashboard-title">System Settings</div>
+          <div class="dashboard-title">Notice of Salary</div>
         </div>
       </div>
 
