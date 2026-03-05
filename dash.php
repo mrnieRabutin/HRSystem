@@ -6,7 +6,7 @@ include "auth/check.php";
 <html>
 
 <head>
-  <title>DepEd Main Dashboard</title>
+  <title>DepEd</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -61,6 +61,22 @@ include "auth/check.php";
       font-size: 13px;
       color: #6c757d;
     }
+    .dashboard-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(135deg, #001f5c, #0038A8); /* Navy Blue Gradient */
+  color: white;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Make icons white when hovering */
+.dashboard-card:hover i {
+  color: white;
+}
+
+/* Make description text white in hover */
+.dashboard-card:hover .dashboard-desc {
+  color: #e0e0e0;
+}
 
     /* DARK MODE */
     body.dark-mode {
